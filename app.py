@@ -6,7 +6,7 @@ import streamlit as st
 
 #show_cyber_predict_page()
 
-st.sidebar.markdown("[Ana Sayfa](http://www.salaryprediction.site)")
+st.sidebar.markdown("[Ana Sayfa](https://www.salaryprediction.site)")
 page = st.sidebar.selectbox("Lütfen bir veri seti seçiniz",("Siber Güvenlik Veri Seti","StackOverFlow Anketi Veri Seti"))
 if page =="Siber Güvenlik Veri Seti":
     show_cyber_predict_page()
