@@ -1,10 +1,11 @@
-import streamlit as st
+import urllib3.contrib.pyopenssl
+urllib3.contrib.pyopenssl.inject_into_urllib3()
+
 from stack_predict_page import show_stack_predict_page
 from cyber_predict_page import show_cyber_predict_page
-import urllib3.contrib.pyopenssl
+import streamlit as st
 
 
-urllib3.contrib.pyopenssl.inject_into_urllib3()
 
 #show_cyber_predict_page()
 
