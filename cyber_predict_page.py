@@ -43,6 +43,7 @@ def show_cyber_predict_page():
         'VN', 'SA', 'LT', 'RU', 'TR'
     )
     e_r_turkce = {
+        'Amerika Birleşik Devletleri': 'US',
         'Afganistan': 'AF',
         'Almanya': 'DE',
         'Arjantin': 'AR',
