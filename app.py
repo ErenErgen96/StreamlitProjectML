@@ -12,3 +12,12 @@ if page =="Siber Güvenlik Veri Seti":
     show_cyber_predict_page()
 elif page== "StackOverFlow Anketi Veri Seti":
     show_stack_predict_page()
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
